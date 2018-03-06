@@ -4,12 +4,15 @@ import sys
 
 API_URL = "https://git.io/create"
 HOME_URL = "https://git.io/"
-
+ERROR = "Must be a GitHub.com URL."
 
 def shorten(url, custom_code=None):
 	data = requests.post(API_URL, data={"url":url}).text
 
-	print(HOME_URL+data)
+	if data == ERROR:
+		print(ERROR)
+	else:
+		print(HOME_URL+data)
 
 
 def main():
