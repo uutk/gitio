@@ -8,7 +8,8 @@ setup(
     author='Siddharth Dushantha',
     author_email='siddharth.dushantha@gmail.com',
     url='https://github.com/sdushantha/gitio',
+    packages=['gitio'],
     entry_points = {
-        'console_scripts': ['gitio=gitio:main'],
+        'console_scripts': ['gitio=gitio.gitio:main'],
     }
 )
