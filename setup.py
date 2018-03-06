@@ -10,6 +10,6 @@ setup(
     url='https://github.com/sdushantha/gitio',
     packages=['gitio'],
     entry_points = {
-        'console_scripts': ['gitio=gitio.gitio:main'],
+        'console_scripts': ['gitio=gitio.gitio'],
     }
 )
