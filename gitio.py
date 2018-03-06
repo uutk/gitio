@@ -5,9 +5,10 @@ import sys
 API_URL = "https://git.io/create"
 HOME_URL = "https://git.io/"
 
-# Errors
+######### Errors #########
 ERROR = "Must be a GitHub.com URL."
 INVALID_URL = "Invalid url:"
+##########################
 
 def shorten(url):
 	# Note to self: test the "code" data to add a custom code
@@ -24,7 +25,7 @@ def shorten(url):
 		print(data)
 
 	else:
-		print(HOME_URL+data)
+		print(HOME_URL + data)
 
 
 def main():
