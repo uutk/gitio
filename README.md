@@ -19,3 +19,13 @@ optional arguments:
   -h, --help         show this help message and exit
   -u URL, --url URL  GitHub url
 ```
+
+## Example
+**Input**
+
+```
+$ python3 gitio.py -u https://github.com/sdushantha/gitio
+```
+**Output**
+
+https://git.io/vA5ZD
